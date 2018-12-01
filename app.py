@@ -6,7 +6,7 @@ PORT = 4390
 def homepage():
   return "Howdy hacker!!"
 
-@app.route('/scheduleme', methods=['POST'])
+@app.route('/ohm', methods=['POST'])
 def ready():
   return 'I would like to schedule that, but I haven\'t quite figured out how...'
 
