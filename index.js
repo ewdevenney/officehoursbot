@@ -85,11 +85,11 @@ controller.on('bot_channel_join', function (bot, message) {
 });
 
 controller.hears('hello', 'direct_message', function (bot, message) {
+<<<<<<< HEAD
     bot.reply(message, 'hello!');
 });
 
 controller.on('slash_command',function(bot,message) {
-    bot.replyAcknowledge
 
     // reply to slash command
     bot.replyPublic(message,'Everyone can see this part of the slash command');
